@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/icomoon.eot') format('eot'),
+    url('../fonts/icomoon.svg') format('svg'),
+    url('../fonts/icomoon.ttf') format('ttf'),
+    url('../fonts/icomoon.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+a:link,a:visited,a:hover,a:visited{
+    text-decoration: none;
+    color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/*分屏*/
+.bg{
+    position: absolute;
+}
+.bg1{
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+.tou{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(2,2,2,0.6);
+}
+
+.bg2{
+    background-color:#FFFFFF;
+}
+.bg3{
+    background: url("../img/bg3.jpg") no-repeat;
+    background-size: cover;
+}
+.bg4{
+    background-color:#FFFFFF;
+}
+.bg5{
+    background-color:#FFFFFF;
+}
+
+.tou .top,.tou .bottom{
+    z-index: 100;
+    position: absolute;
+   font-size: 77px;
+    color: white;
+    letter-spacing: 5px;
+}
+.tou .top{
+    top:20%;
+    left: 30%;
+}
+.tou .bottom{
+    top:40%;
+    left: 40%;
+}
+
+/*个人简历*/
+.con1{
+    height: 100%;
+    padding: 0;
+}
+.row1{
+    width: 100%;
+    height: 100%;
+    /*background-color: salmon;*/
+    padding:70px 50px;
+    margin: 0;
+}
+.row1 .ro2{
+    padding-left: 50px;
+}
+.row1 .ro1,.row1 .ro2{
+    height: 100%;
+}
+.ro2 h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #FA8072;
+}
+.ro2 p{
+    font-size: 18px;
+    padding: 2px;
+}
+.row1 .ro1 .bottom{
+    height: 80%;
+    width: 80%;
+    background-color: #E0ECF0;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.row1>.ro1 .bottom1{
+    background: url("../img/ren.jpg") no-repeat;
+    background-size: cover;
+    height: 85%;
+    width: 85%;
+
+}
+/*导航条*/
+navbar-fixed-top{
+   z-index: 99;
+}
+.navbar-inverse .navbar-nav > li > a{
+    font-size: 16px;
+}
+
+.navbar-inverse {
+    background-color: rgba(77, 77, 77, 0);
+    border-color: rgba(77, 77, 77, 0);
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li.act >a{
+    color: #FF5100;
+    /*border-bottom: 1px solid #FF5100;*/
+}
+
+/*视频作品*/
+#three{
+    text-align: center;
+    color: white;
+}
+#three h3,#four h3{
+   font-size: 40px;
+    margin: 150px 0 30px;
+}
+#three p,#four p{
+    font-size: 15px;
+}
+#three .p1 span,#four .p1 span,#five .p1 span{
+   width: 70px;
+    height: 30px;
+    display: inline-block;
+    font-family: "myfont";
+    text-align: center;
+    color: #F24334;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 30px;
+}
+#three .p1 span:before,#three .p1 span:after,#four .p1 span:before,#four .p1 span:after
+,#five .p1 span:before,#five .p1 span:after{
+    width:100px;
+    height:1px;
+    background-color:white;
+    position: absolute;
+    top: 15px;
+    content: '';
+}
+#four .p1 span:before,#four .p1 span:after,#five .p1 span:before,#five .p1 span:after{
+    background-color:darkgray;
+}
+
+#three .p1 span:before,#four .p1 span:before,#five .p1 span:before{
+    left: -100px;
+}
+#three .p1 span:after,#four .p1 span:after,#five .p1 span:after{
+    left: 70px;
+}
+#three .cir .row .col-md-3{
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 30px;
+
+}
+
+#three .circle{
+    width: 150px;
+    height:150px;
+    border: 5px solid white;
+    border-radius: 100%;
+    opacity: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    line-height: 150px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.cir p a{
+    font-size: 19px;
+}
+.cir p a:hover{
+    color: #F24334;
+}
+.cir p{
+    padding: 2px;
+}
+#three .p2 span{
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    font-family: "myfont";
+    text-align: center;
+    font-size: 24px;
+}
+/*作品集合*/
+#four{
+    text-align: center;
+}
+#four .lr{
+    display: flex;
+    padding: 20px;
+}
+#four .left{
+    flex: 2;
+    height: 120px;
+}
+#four .left span{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 100%;
+    display: block;
+    opacity: 100%;
+    border: 1px #B5B5B5 solid;
+    font-family: "myfont";
+    font-size: 50px;
+    color:#B5B5B5;
+}
+#four .left span:hover{
+    color:#2D2D2D;
+    border-color: #2D2D2D;
+}
+#four .right{
+    flex: 3;
+    text-align: left;
+
+}
+#four .right h4 a{
+    color: #5f5f5f;
+}
+/*留言*/
+.cir3{
+    height: 100%;
+}
+.cir3 .row{
+    height: 100%;
+    background-color:#FFFFFF;
+}
+.cir3 .right{
+    height: 100%;
+    background: url("../img/bg4.JPG") no-repeat;
+    background-size: cover;
+}
+.cir3 .left,.cir3 .tou{
+    text-align: center;
+    padding: 140px 100px;
+}
+.cir3 .right{
+    color: white;
+}
+#five .left h3,#five .right h3{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+#five .left form{
+    margin-top: 30px;
+}
+#five .tou .liu{
+    text-align: left;
+}
+#five .tou .liu p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+#five .liu img{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.aa{
+    background-color: skyblue;
+}
