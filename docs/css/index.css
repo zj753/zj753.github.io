@@ -85,12 +85,19 @@ body{
 }
 .ro2 h3{
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: #FA8072;
 }
 .ro2 p{
     font-size: 18px;
     padding: 2px;
+}
+.ro2 p a{
+    color: #ff8c5d;
+}
+.ro2 p:last-child{
+    text-align: justify;
+    line-height: 33px;
 }
 .row1 .ro1 .bottom{
     height: 80%;
@@ -208,6 +215,11 @@ navbar-fixed-top{
     text-align: center;
     font-size: 24px;
 }
+#three p strong{
+    color: red;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
 /*作品集合*/
 #four{
     text-align: center;
@@ -234,7 +246,7 @@ navbar-fixed-top{
     font-size: 50px;
     color:#B5B5B5;
 }
-#four .left span:hover{
+#four .left span:hover,#four .right h4 a:hover{
     color:#2D2D2D;
     border-color: #2D2D2D;
 }
@@ -245,6 +257,10 @@ navbar-fixed-top{
 }
 #four .right h4 a{
     color: #5f5f5f;
+}
+#four .right h4 a:hover{
+    font-size: 18px;
+    font-weight: bold;
 }
 /*留言*/
 .cir3{
