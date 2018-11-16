@@ -93,7 +93,7 @@ body{
     padding: 2px;
 }
 .ro2 p a{
-    color: #ff8c5d;
+    color: black;
 }
 .ro2 p:last-child{
     text-align: justify;
@@ -197,11 +197,10 @@ navbar-fixed-top{
     font-size: 30px;
     margin-bottom: 25px;
 }
-
 .cir p a{
     font-size: 19px;
 }
-.cir p a:hover{
+.cir p a:hover,#three .circle:hover{
     color: #F24334;
 }
 .cir p{
@@ -308,4 +307,100 @@ navbar-fixed-top{
 
 .aa{
     background-color: skyblue;
+}
+
+/*手机端*/
+@media screen and ( max-width: 768px )  {
+    .tou .top,.tou .bottom{
+        font-size: 40px;
+    }
+    /*简历*/
+    .ro2 h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .ro2 p{
+        font-size: 16px;
+    }
+    .ro2 p:last-child{
+        text-align: justify;
+        line-height: 30px;
+    }
+    /*作品视频*/
+    #three h3,#four h3{
+        font-size: 30px;
+        margin: 80px 0 20px;
+
+    }
+    .tou>p:nth-child(3),#four>p:nth-child(4){
+        margin-top: -20px;
+        padding: 0 10px;
+        text-align: justify;
+    }
+    #three .cir .row .col-xs-6{
+        margin-top: 10px;
+    }
+
+    #three .circle{
+        width: 100px;
+        height:100px;
+        border: 2px solid white;
+        line-height: 100px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .cir p a{
+        font-size: 15px;
+    }
+    #three p strong{
+        font-size: 17px;
+    }
+    /*作品集合*/
+    #four,.ro2,#three{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #four .left a{
+        display: flex;
+        height: 120px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #four .left span{
+        height: 75px;
+        width: 75px;
+        line-height: 75px;
+        font-size: 40px;
+    }
+
+    #four .right h4 a:hover{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    #four .right h4{
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #four .right p{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        font-size: 15px;
+        text-align: justify;
+    }
+    /*留言*/
+    .cir3{
+        border-top: 2px solid grey;
+    }
+
+    .cir3 .left p:nth-child(3){
+        text-align: justify;
+        margin-top: -20px;
+    }
+
 }
