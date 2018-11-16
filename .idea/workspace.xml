@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef514d60-f01c-4035-9c1e-c315dc94f59f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="ef514d60-f01c-4035-9c1e-c315dc94f59f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="322" column="15" selection-start-line="322" selection-start-column="15" selection-end-line="322" selection-end-column="15" />
+            <state relative-caret-position="1215">
+              <caret line="310" lean-forward="true" selection-start-line="310" selection-end-line="310" />
             </state>
           </provider>
         </entry>
@@ -150,16 +148,15 @@
       <workItem from="1542281343782" duration="88000" />
       <workItem from="1542281651907" duration="283000" />
       <workItem from="1542288477051" duration="9176000" />
-      <workItem from="1542337764274" duration="814000" />
+      <workItem from="1542337764274" duration="909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28989000" />
+    <option name="totallyTimeSpent" value="29084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-29" y="0" width="1612" height="909" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.03822055" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -352,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="322" column="15" selection-start-line="322" selection-start-column="15" selection-end-line="322" selection-end-column="15" />
+        <state relative-caret-position="1215">
+          <caret line="310" lean-forward="true" selection-start-line="310" selection-end-line="310" />
         </state>
       </provider>
     </entry>
