@@ -316,11 +316,11 @@ navbar-fixed-top{
     }
     .tou .top{
         top:40%;
-        left: 30%;
+        left: 15%;
     }
     .tou .bottom{
         top:50%;
-        left: 30%;
+        left: 15%;
     }
     /*简历*/
     .ro2 h3{
@@ -391,18 +391,18 @@ navbar-fixed-top{
         font-weight: bold;
     }
     #four .right h4{
-        font-size: 16px;
-        overflow:hidden;
-        text-overflow:ellipsis;
-        white-space:nowrap;
-        width: 70%;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    #four .right h4:hover{
+        font-size: 15px;
     }
     #four .right p{
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
         overflow: hidden;
-        font-size: 15px;
+        font-size: 13px;
         text-align: justify;
     }
     /*留言*/
