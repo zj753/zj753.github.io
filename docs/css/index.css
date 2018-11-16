@@ -314,9 +314,17 @@ navbar-fixed-top{
     .tou .top,.tou .bottom{
         font-size: 40px;
     }
+    .tou .top{
+        top:40%;
+        left: 30%;
+    }
+    .tou .bottom{
+        top:50%;
+        left: 30%;
+    }
     /*简历*/
     .ro2 h3{
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 20px;
     }
     .ro2 p{
@@ -332,7 +340,7 @@ navbar-fixed-top{
         margin: 80px 0 20px;
 
     }
-    .tou>p:nth-child(3),#four>p:nth-child(4){
+    .tou>p:nth-child(3),#four>div>p:nth-child(3){
         margin-top: -20px;
         padding: 0 10px;
         text-align: justify;
@@ -374,16 +382,20 @@ navbar-fixed-top{
         line-height: 75px;
         font-size: 40px;
     }
-
+    #four .right{
+        padding: 5px;
+        text-align: justify;
+    }
     #four .right h4 a:hover{
         font-size: 17px;
         font-weight: bold;
     }
     #four .right h4{
         font-size: 16px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        width: 70%;
     }
     #four .right p{
         display: -webkit-box;
