@@ -336,6 +336,9 @@ navbar-fixed-top{
     .ro2 p{
         font-size: 16px;
     }
+    .ro2 p a{
+       display: inline-block;
+    }
     .ro2 p:last-child{
         text-align: justify;
         line-height: 30px;
