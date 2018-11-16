@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: 'myfont';
     src: url('../fonts/icomoon.eot') format('eot'),
     url('../fonts/icomoon.svg') format('svg'),
@@ -323,6 +323,12 @@ navbar-fixed-top{
         left: 15%;
     }
     /*简历*/
+    .row1{
+        padding:70px 40px;
+    }
+    .row1 .ro2{
+    padding-left: 0;
+   }
     .ro2 h3{
         font-size: 30px;
         margin-bottom: 20px;
@@ -365,7 +371,7 @@ navbar-fixed-top{
         font-size: 17px;
     }
     /*作品集合*/
-    #four,.ro2,#three{
+    #four,#three{
         display: flex;
         flex-direction: column;
         justify-content: center;
