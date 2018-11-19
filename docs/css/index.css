@@ -73,7 +73,6 @@ body{
 .row1{
     width: 100%;
     height: 100%;
-    /*background-color: salmon;*/
     padding:70px 50px;
     margin: 0;
 }
@@ -324,7 +323,7 @@ navbar-fixed-top{
     }
     /*简历*/
     .row1{
-        padding:70px 40px;
+        padding:70px 35px;
     }
     .row1 .ro2{
     padding-left: 0;
@@ -335,9 +334,6 @@ navbar-fixed-top{
     }
     .ro2 p{
         font-size: 16px;
-    }
-    .ro2 p a{
-       display: inline-block;
     }
     .ro2 p:last-child{
         text-align: justify;
